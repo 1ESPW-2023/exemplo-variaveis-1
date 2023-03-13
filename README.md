@@ -1,1 +1,1 @@
-## Exemplo de variáveis e constantes em JS
+## Exemplo de variáveis e constantes em Javascript
