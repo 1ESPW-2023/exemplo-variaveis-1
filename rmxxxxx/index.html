@@ -11,7 +11,7 @@
     <h1>Diferenças entre variáveis em JS</h1>
 
     <div>
-        <p>
+        <p id="texto">
             Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
 
             var é a palavra-chave originalmente usada para declarar variáveis em JavaScript, enquanto let é uma adição mais recente na linguagem.
@@ -44,6 +44,22 @@
                 // }
 
                 // document.write(nome)
+
+                //Constante
+                const dia = "terça"
+                const num1 = 5
+                const num2 = 10
+
+                //Apresentando concatenação apenas com ( + )
+                document.write("Valor da constante : " + dia + "<br>")
+                document.write(num1 + " " +num2)
+                
+                //Declarando um elemento como constante
+                const paragrafo = document.querySelector("#texto")
+
+                paragrafo.innerHTML = "ZEREI!!!"
+                paragrafo = ""
+
 
             </script>
        
