@@ -12,7 +12,7 @@
 
  <div>
    <p id="texto">
-    Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
+    <!-- Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
 
     var é a palavra-chave originalmente usada para declarar variáveis em JavaScript, enquanto let é uma adição mais recente na linguagem.
 
@@ -24,7 +24,7 @@
 
     Além disso, as variáveis let têm um comportamento conhecido como "temporal dead zone". Isso significa que, se uma variável let é usada antes de ser declarada, ocorrerá um erro.
 
-    Em resumo, a diferença principal entre var e let é que var tem escopo de função ou global e permite redeclaração, enquanto let tem escopo de bloco e não permite redeclaração.
+    Em resumo, a diferença principal entre var e let é que var tem escopo de função ou global e permite redeclaração, enquanto let tem escopo de bloco e não permite redeclaração. -->
 
    </p>
      <script>
@@ -48,18 +48,59 @@
 
         // document.write(nome)
         //constante
-        const dia = "terça"
-        const num1 = 5
-        const num2 = 10
+        // const dia = "terça"
+        // const num1 = 5
+        // const num2 = 10
 
-        //Apresentando concatenação apenas com ( + )
-        document.write("Valor da constante : " + dia + "<br>")
-        document.write(num1 + " " + num2)
+        // //Apresentando concatenação apenas com ( + )
+        // document.write("Valor da constante : " + dia + "<br>")
+        // document.write(num1 + " " + num2)
 
-        //Declarando um elemento como constante
-        const paragrafo = document.querySelector("#texto")
+        // //Declarando um elemento como constante
+        // const paragrafo = document.querySelector("#texto")
 
-        paragrafo.innerHTML = "ZEREI!!!"
+        // paragrafo.innerHTML = "ZEREI!!!"
+
+        //---------------------------------
+
+        //Operadores de comparação
+
+        
+       //  if (num1 == num2) {
+       //  document.write("Num1 é igual a Num2!")                
+       //  }else{
+       //  document.write("Num1 é diferente de Num2!")                
+       //  }
+       //== igualdade
+       //  resultado = (num1 == num2) ? "Num1 é igual a Num2!" : "Num1 é diferente de Num2!"
+       //  document.write(resultado)
+
+       //!= diferente
+       // if (num1 !== num2) {
+       //     document.write("Num1 é igual a Num2!")                
+       //  }else{
+       //     document.write("Num1 é diferente de Num2!")                
+       //  }
+
+       var num1 = "5"
+       var num2 = 5
+       var resultado
+
+       //=== igualdade estrita
+       //  if (num1 == num2) {
+       //   document.write("num1 é igual a num2!")
+       //  }else{
+       //    document.write("num1 é diferente a num2!")
+       //  }
+
+      //  var num3 = ""
+      //  var num4 = null
+      //  var num5
+
+      //  //tipos de dados / voids
+      //  document.write("<br>VAZIO : " + num3)
+      //  document.write("<br>NULL : " + num4)
+      //  document.write("<br>UNDEFINED : " + num5)
       </script>
  </div>
 
