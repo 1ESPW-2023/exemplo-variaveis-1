@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var let const</title>
+</head>
+<body>
+
+    <h1>Diferenças entre variáveis em JS</h1>
+
+    <div>
+        <p id="texto">
+            Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
+
+            var é a palavra-chave originalmente usada para declarar variáveis em JavaScript, enquanto let é uma adição mais recente na linguagem.
+        
+            A principal diferença é que as variáveis declaradas com var têm escopo de função ou global, enquanto as variáveis declaradas com let têm escopo de bloco. Isso significa que as variáveis var podem ser acessadas em todo o escopo da função em que são declaradas, enquanto as variáveis let só podem ser acessadas dentro do bloco de código em que são declaradas.
+        
+            Quando uma variável var é declarada em um bloco de código, ela é automaticamente movida para o topo do escopo de função. Isso é conhecido como "hoisting". No entanto, isso não acontece com as variáveis let.
+        
+            As variáveis let também não podem ser redeclaradas no mesmo escopo de bloco, enquanto as variáveis var podem ser redeclaradas no mesmo escopo.
+        
+            Além disso, as variáveis let têm um comportamento conhecido como "temporal dead zone". Isso significa que, se uma variável let é usada antes de ser declarada, ocorrerá um erro.
+        
+        Em resumo, a diferença principal entre var e let é que var tem escopo de função ou global e permite redeclaração, enquanto let tem escopo de bloco e não permite redeclaração.
+       </p>     
+            <script>
+                //Declaração de variáveis com var
+                // nome = "Luiz"
+                // //Imprimindo com document.write e console.log()
+                // document.writeln("STRING <br>")
+                // document.writeln(nome)
+                // console.log(nome)
+
+                // var nome = "Pedro"
+
+                // var num1 = 5
+                // var num2 = 10
+
+                // if(num1 < num2){
+                //     let nome = "Luiz"
+                // }
+
+                // document.write(nome)
+
+                //Constante
+                // const dia = "terça"
+                // const num1 = 5
+                // const num2 = 10
+
+                // //Apresentando concatenação apenas com ( + )
+                // document.write("Valor da constante : " + dia + "<br>")
+                // document.write(num1 + " " +num2)
+                
+                // //Declarando um elemento como constante
+                // const paragrafo = document.querySelector("#texto")
+
+                // paragrafo.innerHTML = "ZEREI!!!"
+                // paragrafo = ""
+
+                //Operadores de comparação
+     
+        //== igualdade
+        // if (num1 == num2) {
+        //     document.write("Num1 é igual a Num2!")                
+        //  }else{
+        //     document.write("Num1 é diferente de Num2!")                
+        //  }
+        
+        //Variação da validação com ternário
+        // resultado = (num1 == num2) ? "Num1 é igual a Num2!" : "Num1 é diferente de Num2!"
+        // document.write(resultado)
+        
+        //!= diferente
+        // if (num1 !== num2) {
+        //     document.write("Num1 é igual a Num2!")                
+        //  }else{
+        //     document.write("Num1 é diferente de Num2!")                
+        //  }
+/**
+         Imagine que você está construindo um formulário de cadastro de usuário em uma página web, e você precisa verificar se o usuário digitou uma senha válida. Você pode fazer isso usando o seguinte código:
+
+javascript
+
+const password = document.getElementById("password").value;
+
+if (password.length >= 8) {
+  console.log("Senha válida!");
+} else {
+  console.log("Senha inválida!");
+}
+
+
+Nesse código, usamos a propriedade value do elemento input para obter o valor da senha que o usuário digitou. Em seguida, verificamos se o comprimento da senha é maior ou igual a 8, usando o operador de comparação (>=). Se a senha for válida, exibimos uma mensagem dizendo que a senha é válida. Caso contrário, exibimos uma mensagem dizendo que a senha é inválida.
+
+No entanto, imagine agora que você precisa verificar se a senha digitada é diferente de uma senha padrão que você definiu, por exemplo, "12345678". Você pode fazer isso usando o operador NOT, como mostrado abaixo:
+
+javascript
+
+const password = document.getElementById("password").value;
+
+if (!(password.length >= 8 && password !== "12345678")) {
+  console.log("Senha inválida!");
+} else {
+  console.log("Senha válida!");
+}
+
+Nesse código, usamos o operador NOT (!) para inverter a lógica da expressão que verifica se a senha é válida. Agora, a expressão dentro dos parênteses verifica se a senha tem pelo menos 8 caracteres E não é igual a "12345678". Se essa expressão for falsa, o operador NOT a tornará verdadeira e exibirá a mensagem "Senha válida!". Caso contrário, a expressão será verdadeira e o operador NOT a tornará falsa, e o código exibirá a mensagem "Senha inválida!".
+**/
+
+   
+            var num1 = "5"
+            var num2 = 5
+            var resultado
+
+        //=== igualdade estrita
+        // if (num1 == num2) {
+        //      document.write("Num1 é igual a Num2!")                
+        //  }else{
+        //     document.write("Num1 é diferente de Num2!")                
+        //  }
+        
+        // if (typeof num1 == typeof num2) {
+        //      document.write("Num1 é igual a Num2!")                
+        //  }else{
+        //     document.write("Num1 é diferente de Num2!")                
+        //  }
+
+        var num3 = ""
+        var num4 = null
+        var num5
+        
+        //Tipos de dados vazios / voids
+        document.write("<br>VAZIO : " + num3)
+        document.write("<br>NULL : " + num4)
+        document.write("<br>UNDEFINED : " + num5)
+
+
+
+
+        //!== diferente estrito
+        //> maior que
+        //< menor que
+        //>= maior ou igual que
+        //<= menor ou igual que
+
+
+
+        </script>
+       
+    </div>
+
+
+</body>
+</html>
