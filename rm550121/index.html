@@ -11,21 +11,66 @@
     <h1>Diferenças entre variáveis em js</h1>
 
     <div>
-        <p>
+        <p id="texto">
             A declaração de variáveis em javascript é feita no escopo do código js. <br>
             O escopo pode ser qualquer bloco de programação. <br>
             Ex: <br>
             bloco if, while, for, switch <br>
-
-            <!---->
-            <script>
-                var nome = "Pedro"
-                //document.write("<br>"+nome)
-                window.alert(nome + " esta a invadir o seu computador!!!")
-                console.log(nome)
-                console.warn("Tentativa de invasão realizada com sucesso")
-            </script>
         </p>
+            <!---->
+        <script>
+            //DECLARAÇÃO DE VARIÁVEIS COM VAR
+            // var nome = "Gabriel"
+
+            // document.writeln("STRING")
+            // document.writeln(nome)
+            
+            // var num1 = 5
+            // var num2 = 10
+
+            // if(num1 < num2){
+            //     let nome = "Gabriel"
+            // }
+            // document.write(nome)
+
+            // const dia = "Terça"
+            // const num1 = 5
+            // const num2 = 10
+
+            // document.write("Valor da constante: " + dia)
+            // document.write("<br>" + (num1 + num2))
+
+            // const paragrafo = document.querySelector("#texto")
+            // paragrafo.innerHTML = "ZEREI!!!"
+
+            var num1 = "5"
+            var num2 = 5
+            var resultado
+
+            //=== igualdade estrita
+            // if (num1 == num2) {
+            //      document.write("Num1 é igual a Num2!")                
+            //  }else{
+            //     document.write("Num1 é diferente de Num2!")                
+            //  }
+            
+            // if (typeof num1 == typeof num2) {
+            //      document.write("Num1 é igual a Num2!")                
+            //  }else{
+            //     document.write("Num1 é diferente de Num2!")                
+            //  }
+
+            var num3 = ""
+            var num4 = null
+            var num5
+
+            document.write("<br>VAZIO: " + num3)
+            document.write("<br>NULL: " + num4)
+            document.write("<br>UNDEFINED: " + num5)
+
+
+
+        </script>
     </div>
 </body>
 </html>
