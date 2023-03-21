@@ -10,3 +10,19 @@ h1Element.addEventListener("click",function () {
     alert("Agora com")
 })
 
+//Array(matriz) de frutas
+var frutas = ["maçã", "banana", "laranja", "melancia"]
+
+console.log("MINHAS FRUTAS : " + frutas)
+console.log("UM ITEM : " + frutas[0])
+
+//Adicionar um item ao final do array
+frutas.push("uva")
+console.log("MINHAS FRUTAS : " + frutas)
+console.table(frutas) //mostra o indice e valor, em tabela
+
+for (let x = 0; x < frutas.length; x++) {
+    const element = frutas[x];
+    console.log("FRUTA SELECIONADA " + element)
+    
+}
