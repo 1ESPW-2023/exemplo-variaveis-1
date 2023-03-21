@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>var let const</title>
+
+    <script src="./js/scrip.js" defer></script>
+    
+    <script>
+        //utilização no bloco script atravez do head
+        var msg = "utilizaçã no HEAD"
+        console.log(msg)
+    </script>
+
+
 </head>
 <body>
+    <!--utilizando um evento para diparar açoes em uma tag -->
+    <!--<h1 onclick="alert('Evento de linha!')">Diferenças entre variáveis em JS</h1>-->
+        <h1 id="meu-titulo">Diferenças entre variáveis em JS</h1>
 
-    <h1>Diferenças entre variáveis em JS</h1>
 
     <div>
         <p id="texto">
@@ -26,15 +38,18 @@
         
         Em resumo, a diferença principal entre var e let é que var tem escopo de função ou global e permite redeclaração, enquanto let tem escopo de bloco e não permite redeclaração.
         <p></p>
+            
+            
             <script>
                 //declaração de variaveis com var
- /*               nome = "Pedro"
+               nome = "Pedro"
                 
-                document.write("STRING <br> ")
+             document.write("STRING <br> ")
                 document.write(nome)
                 console.log(nome)
 
-                var num1 = 5
+            
+                /*    var num1 = 5
                 var num2 = 10
 
 
