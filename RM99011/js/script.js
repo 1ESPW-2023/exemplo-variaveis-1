@@ -12,3 +12,14 @@ h1Element.addEventListener("click",function () {
 var frutas = ["maçã", "banana", "laranja", "melancia"]
 
 console.log("MINHAS FRUTAS: ", frutas)
+console.log("UM ITWM: ", frutas[0])
+
+//mencionar items ao final do array
+frutas.push("uva")
+console.log("MINHAS FRUTAS: ", frutas)
+console.log(frutas)
+
+for(let x = 0; x < frutas.length; x++) {
+    const element = frutas[x];
+    console.log("FRUTA SELECIONADA " + element)
+}
