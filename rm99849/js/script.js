@@ -5,3 +5,13 @@ const h1element = document.getElementById("meu-titulo")
 h1element.addEventListener("click",function(){
     alert("não clique aí")
 })
+
+//array
+
+var frutas = [ "maçã","banana","laranja","melancia"]
+
+console.log("minhas frutas :" + frutas)
+
+//alterar o array 
+
+frutas.push("uva")
