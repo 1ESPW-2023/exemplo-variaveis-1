@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21 Março</title>
+
+    <script src="./js/script.js" defer></script> 
+    
+
+    <script>
+        //Utilização no bloco script através do head
+        var msg = "Utilização no HEAD!"
+        console.log(msg)
+    </script>
+
+</head>
+<body>
+    
+    <!--Utilizando um evento para disparar ações em uma tag 
+     //evento de linha não é uma boa prática:
+    <h1 onclick="alert('Evento de linha!')">Diferenças entre variáveis em JS</h1> -->
+
+    <h1 id="meu-título">Diferenças entre variáveis em JS</h1>
+
+    <div>
+        <p>
+            A declaração de variáveis em JS é feita no escopo do código JS.
+            O escopo pode ser qualquer bloco de programação:
+            Ex:
+            blocos if, while, for, switch
+            
+            <script>
+                //Declarando um determinado valor e apresentando na tela.
+                var nome = "Pedro"
+                document.write("<br>" + nome)//<-- concatenação
+                console.log(nome)
+
+                let nome2 = "Lucas"
+               document.write("<br> Nome : " + nome2 )
+            </script>
+        </p>
+    </div>
+
+
+</body>
+</html>
