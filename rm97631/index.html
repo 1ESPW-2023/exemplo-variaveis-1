@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>var let const</title>
+
+    <script src="./js/script.js"defer></script>
+         
+    <script>
+      //Utilização no bloco script através do head
+      var msg = "Utilização no HEAD!"
+      console.log(msg)
+    </script>
 </head>
 <body>
 
-    <h1> Diferenças entre variáveis em JS </h1>
+    <!-- <h1 onclick="alert('Evento de linha!')">Diferenças entre variáveis em JS </h1> -->
+    <h1 id="meu-titulo">Diferenças entre variáveis em JS </h1>
+
     <div> 
         <p id="texto">
             Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
@@ -117,9 +127,9 @@ Nesse código, usamos o operador NOT (!) para inverter a lógica da expressão q
 **/
                 
                 //=== igualdade estrita
-                var num1 = "5"
-                var num2 = 5
-                var resultado
+                // var num1 = "5"
+                // var num2 = 5
+                // var resultado
 
                 //=== igualdade estrita
                 // if (num1 == num2) {
@@ -134,14 +144,14 @@ Nesse código, usamos o operador NOT (!) para inverter a lógica da expressão q
                 //     document.write("Num1 é diferente de Num2!")                
                 // }
 
-                var num3 = ""
-                var num4 = null
-                var num5
+                // var num3 = ""
+                // var num4 = null
+                // var num5
 
-                //Tipos de dados vazio / voids
-                document.write("VAZIO : " + num3)
-                document.write("<br>NULL : " + num4)
-                document.write("<br>UNDEFINED : " + num5)
+                // //Tipos de dados vazio / voids
+                // document.write("VAZIO : " + num3)
+                // document.write("<br>NULL : " + num4)
+                // document.write("<br>UNDEFINED : " + num5)
 
 
                 //!== diferente estrito
