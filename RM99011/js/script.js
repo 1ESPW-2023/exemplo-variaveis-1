@@ -11,3 +11,4 @@ h1Element.addEventListener("click",function () {
 //vamos criar um array de frutas
 var frutas = ["maçã", "banana", "laranja", "melancia"]
 
+console.log("MINHAS FRUTAS: ", frutas)
