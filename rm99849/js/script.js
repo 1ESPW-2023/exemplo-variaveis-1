@@ -15,3 +15,12 @@ console.log("minhas frutas :" + frutas)
 //alterar o array 
 
 frutas.push("uva")
+
+// estrutura de repetição 
+
+for(let x = 0; x < frutas.length; x++)
+{
+    const element = frutas[x]
+    console.log("fruta selecionada : " + element)
+
+}
