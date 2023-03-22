@@ -12,7 +12,7 @@ var frutas = [ "maçã","banana","laranja","melancia"]
 
 console.log("minhas frutas :" + frutas)
 
-//alterar o array 
+//adicionar o array 
 
 frutas.push("uva")
 
