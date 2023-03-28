@@ -59,3 +59,26 @@
 //     console.log(elementoLi.textContent)
 // })
 
+let nome = 'Fabrício'
+let idade = 19
+let email = 'rm97631@fiap.com.br'
+
+console.log(nome,',',idade,',',email)
+idade = 30
+console.log(idade)
+
+let num1 = 1
+let num2 = 2
+console.log(num1+num2)
+
+let string = 'palavra'
+console.log(string)
+
+let booleano = true
+console.log(booleano)
+
+console.log(num1*num2)
+
+let nulo = null
+console.log(nulo)
+
