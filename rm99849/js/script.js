@@ -24,3 +24,5 @@ for(let x = 0; x < frutas.length; x++)
     console.log("fruta selecionada : " + element)
 
 }
+
+
