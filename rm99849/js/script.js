@@ -1,4 +1,5 @@
 //capturando o elemento h1 e adicionando em uma contante 
+/*
 const h1element = document.getElementById("meu-titulo")
 
 // atrelando um evento ao h1
@@ -18,11 +19,19 @@ frutas.push("uva")
 
 // estrutura de repetição 
 
+
+
 for(let x = 0; x < frutas.length; x++)
 {
     const element = frutas[x]
     console.log("fruta selecionada : " + element)
 
+}
+*/
+let n1 = [ 10,20,30,40]
+var frutas = [ "maçã","banana","laranja","melancia"]
+forof (const n1 of frutas) {
+    console.log("apresentação dos conteudos array" + frutas)
 }
 
 
