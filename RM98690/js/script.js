@@ -41,11 +41,20 @@ console.log("UM ITEM : " + frutas[0])
 //
 //}
 
-let n1= [10,20,30,40,50,60]
-let n2 = [70,80,90,100,110,120,130,140]
-
-//CONATENANDO ARRAYS
-//let n3 = [n1,n2]
-let n3 = [...n1,n2]
-console.log(`Conteúdo do novo array: ${n3}`)
-
+//let n1= [10,20,30,40,50,60]
+//let n2 = [70,80,90,100,110,120,130,140]
+//
+////CONATENANDO ARRAYS
+////let n3 = [n1,n2]
+////let n3 = [...n1,n2]
+////console.log(`Conteúdo do novo array: ${n3}`)
+//
+//const listaDeElementosHtml = document.getElementsByTagName("li")
+//const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+//let indice = 0
+//listaDeElementosHtmlArray.forEach(elementoLi => {
+//    ++indice
+//    elementoLi.innerHTML = (`Novo Item - ${indice}`)
+//    elementoLi.style.backgroundColor = "#f000f0";
+//    console.log(elementoLi.textContent)  
+//})
