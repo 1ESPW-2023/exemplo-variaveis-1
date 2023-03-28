@@ -55,3 +55,32 @@
 //    console.log(`Conteúdo do novo array: ${n3}`)
 
 
+// jogando no index html dia 28 março
+//const listaDeElementosHtml = document.getElementsByTagName("li")
+//const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+    
+    //console.log(listaDeElementosHtml)
+
+
+//ou onde capturo o conteudo dos elementos
+//const listaDeElementosHtml = document.getElementsByTagName("li")
+//    const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+//        
+//    listaDeElementosHtmlArray.forEach(elementoLi =>{
+//
+//        console.log(elementoLi.textContent)
+//    })
+
+//ou
+//const listaDeElementosHtml = document.getElementsByTagName("li")
+//const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+//let indice = 0
+//listaDeElementosHtmlArray.forEach(elementoLi =>{
+//    ++indice
+//    elementoLi.innerHTML = (`Novo Item - ${indice}`)
+//    elementoLi.style.backgroundColor = "beige";
+//    elementoLi.style.backgroundColor = "#ff0000"; (cor: vermelho)
+//#fff000; #fffff0; #f000f0; #ff0ff0
+//    console.log(elementoLi.textContent)
+//})
+
