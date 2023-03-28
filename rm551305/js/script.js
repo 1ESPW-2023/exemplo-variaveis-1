@@ -57,5 +57,29 @@
     //     console.log(elementoLi.textContent)
     // })
 
+var nome = "Bryan"
+var idade = 18
+var email = "rm551305@fiap.com.br"
+console.log(nome + ",",  + idade + "," + email)
+idade = 30
+console.log(idade)
+
+var x = 3
+var y = 1
+console.log(x + y)
+
+var string = "terminando"
+console.log(string)
+
+var sim = true
+console.log(sim)
+
+var v = 7
+var c = 5
+console.log(c*v)
+
+var last = null
+console.log(last)
+
 
 
