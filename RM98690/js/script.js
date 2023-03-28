@@ -1,18 +1,18 @@
 //Capturando o elemento h1 e adicionando em uma
 // constante
-const h1Element = document.getElementById("meu-titulo")
-
-//Atrelando um evento ao elemento h1
-h1Element.addEventListener("click",function () {
-    alert("Agora com super-poderes!!!")
-})
-
-//Agora vamos ver um Array de frutas
-var frutas = ["maçã", "banana","laranja","melancia"]
-
-console.log("MINHAS FRUTAS : " + frutas)
-console.log("UM ITEM : " + frutas[0])
-
+//const h1Element = document.getElementById("meu-titulo")
+//
+////Atrelando um evento ao elemento h1
+//h1Element.addEventListener("click",function () {
+//    alert("Agora com super-poderes!!!")
+//})
+//
+////Agora vamos ver um Array de frutas
+//var frutas = ["maçã", "banana","laranja","melancia"]
+//
+//console.log("MINHAS FRUTAS : " + frutas)
+//console.log("UM ITEM : " + frutas[0])
+//
 //Adicionar um item ao final do Array
 //frutas.push("uva")
 //console.log("MINHAS FRUTAS : " + frutas)
@@ -26,11 +26,11 @@ console.log("UM ITEM : " + frutas[0])
 //Realizando a leitura com FOREACH
 //let n1 =[10,20,30,40,50,60]
 //    n1.forEach(numero =>{     
-//            console.log("Apresentando o conteúdo do array : " + numero)
+//            console.log("Apresentando o conteúdo do array : " + numero) 
 
 //   })
 
-//Retorna o contéuo do array
+//Retorna o contéudo do array
 //for (let numero of n1) {
 //    console.log("Apresentado o conteúdo do array: " + n1)
 //}
@@ -58,3 +58,28 @@ console.log("UM ITEM : " + frutas[0])
 //    elementoLi.style.backgroundColor = "#f000f0";
 //    console.log(elementoLi.textContent)  
 //})
+
+var nome = "Julia"
+var idade = "19"
+var email = "julia.azevedolins@gmail.com"
+
+console.log(nome + "," + idade + "," + email)
+idade = 30
+
+var n1 = 2
+var n2 = 4
+
+console.log(n1 + n2)
+
+var texto = "Declarando uma string para a variavel"
+console.log(texto)
+
+var booleano = true
+console.log(booleano)
+
+var n3 = 2
+var n4 = 6
+console.log(n3 * n4)
+
+var branco = null
+console.log(branco)
