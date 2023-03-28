@@ -57,6 +57,38 @@
     //     console.log(elementoLi.textContent)
     // })
 
+    // Exercício JS
+    // Ex.1,2,3,4   
+    var nome = "Rui"
+    var idade = 18 
+    var email = "rm98436@fiap.com.br"
+    console.log(nome + ","+ idade + "," + email)
+    //Ex 5
+    idade = 30 
+    console.log(idade)
+
+    //Ex.6
+    var num1 = 7
+    var num2 = 10
+    console.log(num1 + num2)
+    //Ex.7
+    var criação = "Metade do exercício"
+    console.log(criação)
+    //Ex.8
+    var sim = true
+    console.log(sim)
+    //Ex.9
+    var num3 = 9
+    var num4 = 25
+    console.log(num3*num4)
+    //Ex.10
+    var final = null
+    console.log(final)
+
+    
+
+
+
 
 
 
