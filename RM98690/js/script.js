@@ -24,7 +24,7 @@ console.log("UM ITEM : " + frutas[0])
 //}
 
 //Realizando a leitura com FOREACH
-let n1 =[10,20,30,40,50,60]
+//let n1 =[10,20,30,40,50,60]
 //    n1.forEach(numero =>{     
 //            console.log("Apresentando o conteúdo do array : " + numero)
 
@@ -36,7 +36,16 @@ let n1 =[10,20,30,40,50,60]
 //}
 
 //Retorna a posição do Array
-for (let posicao in n1) {
-    console.log(`Apresentado o conteúdo do array: ${n1[posicao]}`)
+//for (let posicao in n1) {
+//    console.log(`Apresentado o conteúdo do array: ${n1[posicao]}`)
+//
+//}
 
-}
+let n1= [10,20,30,40,50,60]
+let n2 = [70,80,90,100,110,120,130,140]
+
+//CONATENANDO ARRAYS
+//let n3 = [n1,n2]
+let n3 = [...n1,n2]
+console.log(`Conteúdo do novo array: ${n3}`)
+
