@@ -5,111 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>var let const</title>
-    <script src ="./js/script.js" defer></script>
 
-
+    <script src="./js/script.js" defer></script>
 
 </head>
-    <body>
+<body>
 
-    <h1 id="meu-titulo">Diferenças entre variáveis em Js</h1>
- 
-    <div> 
-      <p> 
-        A declaração de variáveis em Js é feita no escopo do código Js.
-        O escopo pode ser qualquer bloco de programação:
-        Ex:
-        blocos if , while , for , switch 
+    <!-- Utilizando um evento para disparar ações em uma tag -->
+    <!-- <h1 onclick="alert('Evento de linha!')">Diferenças entre variáveis em JS</h1> -->
+    <!-- <h1 id="meu-titulo">Diferenças entre variáveis em JS</h1>
 
-        <script> //Declarando um deternimado valor e apresentado na tela .
-        var nome = "Pedro"
-        document.write(nome)
+    <div>
+        <p>
+            Utilizando agora apenas o arquivo externo!
+        </p>
+    </div> -->
 
-             //Declaração de variáveis com var
-                 nome = "Luiz"
-                 //Imprimindo com document.write e console.log()
-                 document.writeln("STRING <br>")
-                 document.writeln(nome)
-                 console.log(nome)
-
-                 var nome = "Pedro"
-
-                 var num1 = 5
-                 var num2 = 10
-
-                if(num1 < num2){
-                    let nome = "Luiz"
-               }
-
-                 document.write(nome)
-
-                //Constante
-                //Apresentando concatenação apenas com ( + )
-            
-
-                 // //Declarando um elemento como constante
-                 const paragrafo = document.querySelector("#texto")
-
-                 paragrafo.innerHTML = "ZEREI!!!"
-                 paragrafo = ""
-
-                //Operadores de comparação
-        
-            var num1 = 5
-            var num2 = 5
-            var resultado
-        //== igualdade
-         if (num1 == num2) {
-             document.write("Num1 é igual a Num2!")                
-         }else{
-             document.write("Num1 é diferente de Num2!")                
-          }
-        
-        //Variação da validação com ternário
-         resultado = (num1 == num2) ? "Num1 é igual a Num2!" : "Num1 é diferente de Num2!"
-         document.write(resultado)
-         var num1 = "5"
-            var num2 = 5
-            var resultado
-
-        //=== igualdade estrita
-         if (num1 == num2) {
-             document.write("Num1 é igual a Num2!")                
-          }else{
-             document.write("Num1 é diferente de Num2!")                
-          }
-        
-         if (typeof num1 == typeof num2) {
-              document.write("Num1 é igual a Num2!")                
-          }else{
-             document.write("Num1 é diferente de Num2!")                
-          }
-
-        var num3 = ""
-        var num4 = null
-        var num5
-        
-        //Tipos de dados vazios / voids
-        document.write("<br>VAZIO : " + num3)
-        document.write("<br>NULL : " + num4)
-        document.write("<br>UNDEFINED : " + num5)
-
-        
-        //!= diferente
-        //=== igualdade estrita
-        //!== diferente estrito
-        //> maior que
-        //< menor que
-        //>= maior ou igual que
-        //<= menor ou igual quea
-        </script>
+    <header id="cabecalho">
+        <nav>
+            <ul>
+                <li>Item-1</li>
+                <li>Item-2</li>
+                <li>Item-3</li>
+                <li>Item-4</li>
+                <li>Item-5</li>
+            </ul>
+        </nav>
+    </header>
 
 
-        
-        
-       </p>
-    </div>  
-      
-      
-   </body>
+
+</body>
 </html>

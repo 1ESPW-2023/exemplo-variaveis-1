@@ -1,23 +1,82 @@
-//Capturando o elemento h1 e o adcionando em uma 
-// Constante
-const h1Element = document.getElementByld("meu-titulo")
+//Capturando o elemento h1 e adicionando em uma
+// constante
+// const h1Element = document.getElementById("meu-titulo")
 
-//Atrelando um evento ao h1
-h1Element.addEventListener ("click",function (){
-    alert("agora com super-poderes!!!")
-})
+// //Atrelando um evento ao elemento h1
+// h1Element.addEventListener("click",function () {
+//     alert("Agora com super-poderes!!!")
+// })
 
 //Agora vamos ver um Array de frutas
-var frutas = ["maça","banana","laranja","melancia"]
+// var frutas = ["maçã", "banana","laranja","melancia"]
 
-console.log("MINHAS FRUTAS : " + frutas)
-console.log("UM ITEM : " + frutas[0] )
-//Adicionando um item ao final do Array
-frutas.push("UVA")
-console.log("MINHAS FRUTAS : " + frutas)
-console.table(frutas)
+// console.log("MINHAS FRUTAS : " + frutas)
+// console.log("UM ITEM : " + frutas[0])
 
-for (let x =0 ; x < frutas.length; x++) {
-    const element = frutas[x];
-    console.log("FRUTA SELECIONADA " + element)
-}
+// //Adicionar um item ao final do Array
+// frutas.push("uva")
+// console.log("MINHAS FRUTAS : " + frutas)
+// console.table(frutas)
+
+// for (let x = 0; x < frutas.length; x++) {
+//     const element = frutas[x];
+//     console.log("FRUTA SELECIONADA " + element)
+// }
+
+//Realizando a leitura com FOREACH
+// let n1 = [10,20,30,40,50,60]
+
+    // n1.forEach(numero =>{
+    //     console.log("Apresentando o conteúdo do array : " + numero)
+    // })
+    // for (let numeros of n1) {
+    //     console.log("Apresentando o conteúdo do array : " + numeros)
+    // }
+
+    // for (let posicao in n1) {
+    //     // console.log("Apresentando o conteúdo do array : " + n1[posicao])
+    //     console.log(`Apresentando o conteúdo do array : ${n1[posicao]}`)
+    // }
+
+    // let n1 = [10,20,30,40,50,60]
+    // let n2 = [70,80,90,100,110,120,130,140]
+
+    // //CONCATENANDO ARRAYS
+    // // let n3 = [n1,n2]
+    // let n3 = [...n1,n2]
+    // console.log(`Conteúdo do novo array: ${n3}`)
+
+    // const listaDeElementosHtml = document.getElementsByTagName("li")
+    // const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+    // let indice = 0
+    // listaDeElementosHtmlArray.forEach(elementoLi =>{
+    //     ++indice
+    //     elementoLi.innerHTML = (`Novo Item - ${indice}`)
+    //     elementoLi.style.backgroundColor = "#f000f0";
+    //     console.log(elementoLi.textContent)
+    // })
+    var nome = "Gabriel"
+    var idade = "18"
+    var email = "RM550187@fiap.com.br"
+    console.log(nome,idade,email)
+
+    var idade = 30
+    console.log(idade)
+
+    var x = 15
+    var y = 25
+    console.log(x+y)
+
+     var ainda = "Rio"
+     console.log=(ainda)
+
+     var z = ( 81 ==="81")
+     console.log(z)
+
+     var a = 16
+     var b = 2
+     console.log( a * b)
+
+     var c = null
+     console.log(c)
+
