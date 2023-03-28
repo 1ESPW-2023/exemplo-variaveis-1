@@ -7,16 +7,22 @@ h1Element.addEventListener("click", function(){
 })
 
 //Arrays (vetores)
-var frutas = ["maçã", "banana", "pera", "melancia", "manga", "kiwi", "laranja", "uva", "morango"]
+var fruits = ["maçã", "banana", "pera", "melancia", "manga", "kiwi", "laranja", "uva", "morango"]
 
-console.log("my fruits:" + frutas)
-console.log("One item: " + frutas[0])
+console.log("my fruits:" + fruits)
+console.log("One item: " + fruits[0])
 
 //Adicionar um item ao Array
-frutas.push("mexerica")
-console.table(frutas)
+fruits.push("mexerica")
+console.table(fruits)
 
-for (let x = 0; x < frutas.length; x++) {
-    const element = frutas[x];
+for (let x = 0; x < fruits.length; x++) {
+    const element = fruits[x];
     console.log("fruit: " + element)
 }
+
+let n1 = [10, 20, 30, 40, 50, 60, 70]
+
+    n1.forEach(numero =>{
+        console.log('Showing some numbers in a array: ' + numero)
+    })
