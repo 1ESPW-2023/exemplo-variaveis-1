@@ -14,10 +14,18 @@ console.log("MINHAS FRUTAS : " + frutas)
 console.log("UM ITEM : " + frutas[0])
 
 //Adicionar um item ao final do Array
-frutas.push("uva")
-console.log("MINHAS FRUTAS : " + frutas)
-console.table(frutas)
+//frutas.push("uva")
+//console.log("MINHAS FRUTAS : " + frutas)
+//console.table(frutas)
+//
+//for (let x = 0; x < frutas.length; x++) {
+//    const element = frutas[x];
+//    console.log("FRUTA SELLECIONADA " + element)
+//}
 
-for (let x = 0; x < frutas.length; x++) 
-    //const element = frutas[x];
-    console
+//Realizando a leitura com FOREACH
+let n1 =[10,20,30,40,50,60]
+    n1.forEach(numero =>{     
+            console.log("Apresentando o coteúdo do array : " + numero)
+
+    })
