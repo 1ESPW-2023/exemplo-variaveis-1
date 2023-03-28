@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,34 +11,27 @@
     <script src="./js/scrip.js" defer></script>
     
     <script>
+
         //utilização no bloco script atravez do head
-        var msg = "utilizaçã no HEAD"
+        var msg = "estando o Html"
         console.log(msg)
+    
     </script>
 
 
 </head>
-<body>
-    <!--utilizando um evento para diparar açoes em uma tag -->
+
+
+<body> 
+     <!--utilizando um evento para diparar açoes em uma tag -->
     <!--<h1 onclick="alert('Evento de linha!')">Diferenças entre variáveis em JS</h1>-->
         <h1 id="meu-titulo">Diferenças entre variáveis em JS</h1>
 
 
     <div>
         <p id="texto">
-            Em JavaScript, let e var são duas palavras-chave usadas para declarar variáveis, mas elas têm algumas diferenças importantes:
-
-            var é a palavra-chave originalmente usada para declarar variáveis em JavaScript, enquanto let é uma adição mais recente na linguagem.
-        
-            A principal diferença é que as variáveis declaradas com var têm escopo de função ou global, enquanto as variáveis declaradas com let têm escopo de bloco. Isso significa que as variáveis var podem ser acessadas em todo o escopo da função em que são declaradas, enquanto as variáveis let só podem ser acessadas dentro do bloco de código em que são declaradas.
-        
-            Quando uma variável var é declarada em um bloco de código, ela é automaticamente movida para o topo do escopo de função. Isso é conhecido como "hoisting". No entanto, isso não acontece com as variáveis let.
-        
-            As variáveis let também não podem ser redeclaradas no mesmo escopo de bloco, enquanto as variáveis var podem ser redeclaradas no mesmo escopo.
-        
-            Além disso, as variáveis let têm um comportamento conhecido como "temporal dead zone". Isso significa que, se uma variável let é usada antes de ser declarada, ocorrerá um erro.
-        
-        Em resumo, a diferença principal entre var e let é que var tem escopo de função ou global e permite redeclaração, enquanto let tem escopo de bloco e não permite redeclaração.
+            A declaração de variaveis em JS é feita no escopo do codigo JS.
+            O escopo pode ser qualquer blovo de programação.
         <p></p>
             
             
@@ -91,9 +86,9 @@
                   //}else{    
                  // document.write("num1 é diferente de num2!")
                 //}
-                 var num1 = "5"
-                 var num2 = 5
-                 var resultado
+                 //var num1 = "5"
+                 //var num2 = 5
+                 //var resultado
                 
                     //=== igual estrita
                    //if(num1 === num2){
@@ -101,6 +96,12 @@
                  //}else{    
                 // document.write("num1 é diferente de num2!")
                //}
+
+               let n1 = [10,20,30,40,50,60]
+
+               n1.forEach(numero =>{
+                  console.log("Apresentanto conteudo da array :" + numero)
+               })
 
                 
 
