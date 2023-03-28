@@ -44,10 +44,19 @@ h1Element.addEventListener("click", function (){
 
 // }
 
-let n1= [10,20,30,40,50,60]
-let n2= [70,80,90,100,110,120,130,140]
+// let n1= [10,20,30,40,50,60]
+// let n2= [70,80,90,100,110,120,130,140]
 
-// Concatenando arrays
-let n3=[...n1,n2]  
-console.log(`Conteúdo do novo array: ${n3}`) 
+// // Concatenando arrays
+// let n3=[...n1,n2]  
+// console.log(`Conteúdo do novo array: ${n3}`) 
+
+const listaDeElementosHtml = document.getElementsByTagName("li")
+const listaDeElementosHtmlArray= [...listaDeElementosHtml]
+let indice =0
+
+listaDeElementosHtmlArray.forEach(elementLi=>{
+    elementLi.innerHtml=(`Novo item! - $(indice)`)
+    elementLi.style.backgroundColor = "beige"
+})
 
