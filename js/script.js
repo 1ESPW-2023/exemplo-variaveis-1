@@ -25,7 +25,18 @@ console.log("UM ITEM : " + frutas[0])
 
 //Realizando a leitura com FOREACH
 let n1 =[10,20,30,40,50,60]
-    n1.forEach(numero =>{     
-            console.log("Apresentando o coteúdo do array : " + numero)
+//    n1.forEach(numero =>{     
+//            console.log("Apresentando o conteúdo do array : " + numero)
 
-    })
+//   })
+
+//Retorna o contéuo do array
+//for (let numero of n1) {
+//    console.log("Apresentado o conteúdo do array: " + n1)
+//}
+
+//Retorna a posição do Array
+for (let posicao in n1) {
+    console.log(`Apresentado o conteúdo do array: ${n1[posicao]}`)
+
+}
