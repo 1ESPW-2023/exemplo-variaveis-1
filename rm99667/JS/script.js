@@ -22,3 +22,16 @@ for (let A = 0; A < Frutas.length; A++) {
     const element = Frutas[A];
     console.log("FRUTA SELECIONADA " + element)
 }
+
+Frutas.forEach(Fruta => {
+    console.log("Tomi essas frutas pra ti " + Fruta)
+});
+
+
+const listadeelementoshtml = document.getElementsByTagName("li")
+const listadeelementoshtmlarray = [...listadeelementoshtml]
+
+listadeelementoshtmlarray.forEach(elementoli =>{
+    console.log(elementoli.textContent)
+
+})

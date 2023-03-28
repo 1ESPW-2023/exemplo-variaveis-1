@@ -4,11 +4,16 @@
 }
 
 .Titulo{
-    background-color: rgb(246, 110, 110);
+    background-color: rgb(201, 70, 70);
     color: azure;
     display: flex;
     justify-content: center;
     padding: 4%;
+}
+
+.Titulo:hover{
+    color: blue;
+    transition: 3s;
 }
 
 .Texto{
@@ -31,4 +36,8 @@
     margin: 3%;
     justify-content: center;
     font-size: 30px;
+}
+
+.azul{
+    color: blue;
 }
