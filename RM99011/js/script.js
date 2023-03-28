@@ -1,25 +1,24 @@
 
-//capturando o elemento h1 e adicionando em uma constante 
+//capturando o elemento h1 e adicionando em uma constante
 //constante
-const h1Element = document.getElementById("meu-titulo")
+const h1element = document.getElementById("Meu-Titulo")
+//atrelamdo um elementoao h1
+h1element.addEventListener("click", function (){
+    alert("Agora com super-poderes!!")
 
-//trelando um evento ao elemento h1
-h1Element.addEventListener("click",function () {
-    alert("agora com super-poderes")
 })
 
-//vamos criar um array de frutas
+//Agora vaos ver um array de frutas
 var frutas = ["maçã", "banana", "laranja", "melancia"]
 
-console.log("MINHAS FRUTAS: ", frutas)
-console.log("UM ITWM: ", frutas[0])
+console.log("Minhas frutas : " + frutas)
+console.log("um item : " + frutas[0])
 
-//mencionar items ao final do array
 frutas.push("uva")
-console.log("MINHAS FRUTAS: ", frutas)
-console.log(frutas)
+console.log("Minhas frutas : " + frutas)
+console.table(frutas)
 
-for(let x = 0; x < frutas.length; x++) {
-    const element = frutas[x];
+for (let y = 0; y < frutas.length; y++) {
+    const element = frutas[y]
     console.log("FRUTA SELECIONADA " + element)
 }
