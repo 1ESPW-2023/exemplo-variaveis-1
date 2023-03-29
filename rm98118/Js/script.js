@@ -51,12 +51,38 @@ h1Element.addEventListener("click", function (){
 // let n3=[...n1,n2]  
 // console.log(`Conteúdo do novo array: ${n3}`) 
 
-const listaDeElementosHtml = document.getElementsByTagName("li")
-const listaDeElementosHtmlArray= [...listaDeElementosHtml]
-let indice =0
+// const listaDeElementosHtml = document.getElementsByTagName("li")
+// const listaDeElementosHtmlArray= [...listaDeElementosHtml]
+// let indice =0
 
-listaDeElementosHtmlArray.forEach(elementLi=>{
-    elementLi.innerHtml=(`Novo item! - $(indice)`)
-    elementLi.style.backgroundColor = "beige"
-})
+// listaDeElementosHtmlArray.forEach(elementLi=>{
+//     elementLi.innerHtml=(`Novo item! - $(indice)`)
+//     elementLi.style.backgroundColor = "beige"
+// })
+
+var nome = "kaiky"
+var idade = "18"
+var email = "kaikialvaro57@gmail.com"
+console.log(nome, idade, email)
+var idade= "30"
+console.log(idade)
+
+
+var n1 = 5
+var n2 = 10
+console.log(n1+n2)
+
+
+var objeto= "cadeira"
+console.log(objeto)
+
+var boolean = true
+console.log(boolean)
+
+var num1 = 7
+var num2 = 7
+console.log(num1*num2)
+
+var nulo= null
+console.log(nulo)
 
