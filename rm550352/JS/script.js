@@ -1,7 +1,7 @@
 const h1Element = document.getElementById("meu-titulo")
 
 h1Element.addEventListener("click",function () {
-    alert("Agora com super-poderes!!!")
+    alert("Baianinho das casas bainha é una farsita!!!!")
 })
 
 // var frutas = ["maçã", "banana", "laranja", "melancia"]
@@ -30,10 +30,28 @@ h1Element.addEventListener("click",function () {
         // console.log(`Apresentando o conteudo do array : ${n1[posicao]}`)
     // }
 
-    let n1 = [10,20,30,40,50,60]
-    let n2 = [70,80,90,100,110,120,130,140]
+    // let n1 = [10,20,30,40,50,60]
+    // let n2 = [70,80,90,100,110,120,130,140]
 
     // CONCATENANDO ARRAYS
     // let n3 = [n1,n2]
-    let n3 = [...n1]
-    console.log(`Conteudo do novo array: ${n3}`)
+    // let n3 = [...n1]
+    // console.log(`Conteudo do novo array: ${n3}`)
+
+    // const listaDeElementosHtml = document.getElementsByTagName("li")
+    // const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+    // let indice = 0
+    // listaDeElementosHtmlArray.forEach(elementoli =>{
+        // ++indice
+        // elementoli.innerHTML = (`Novo Item - ${indice}`)
+        // elementoli.style.backgroundColor = "#ff0000";
+        // console.log(elementoli.textContent)
+    // })
+     
+
+var nome = "Matheus"
+var idade = 18
+var email = "rm550352@fiap.com.br"
+
+console.log(nome, idade, email)
+
