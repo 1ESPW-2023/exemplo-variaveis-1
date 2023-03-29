@@ -33,20 +33,46 @@
 //     console.log('Numero ' + x + ':' + n1[x])
 // }
 
-let n1 = [10, 20, 30, 40, 50, 60]
-let n2 = [70, 80, 90, 100, 110, 120, 130]
+// let n1 = [10, 20, 30, 40, 50, 60]
+// let n2 = [70, 80, 90, 100, 110, 120, 130]
 
 //let n3 = [n1,n2]
 
-let n3 = [...n1,n2]
-console.log(`Conteudo do novo aray: ${n3}`)
+// let n3 = [...n1,n2]
+// console.log(`Conteudo do novo aray: ${n3}`)
 
-const listadeElementosHtml = document.getElementsByTagName('li')
-const listadeElementosHtmlArray = [...listadeElementosHtml]
-let indice = 0
-listadeElementosHtmlArray.forEach(elementoLi =>{
-    ++indice
-    elementoLi.innerHTML = (`Novo item ${indice}`)
-    elementoLi.style.backgroundColor = '#ff0000'
-    console.log(elementoLi.textContent)
-})
+// const listadeElementosHtml = document.getElementsByTagName('li')
+// const listadeElementosHtmlArray = [...listadeElementosHtml]
+// let indice = 0
+// listadeElementosHtmlArray.forEach(elementoLi =>{
+//     ++indice
+//     elementoLi.innerHTML = (`Novo item ${indice}`)
+//     elementoLi.style.backgroundColor = '#ff0000'
+//     console.log(elementoLi.textContent)
+// })
+
+
+var nome = 'Pedro'
+var idade = '18'
+var email = 'pedrobicascouto@hotmail.com'
+console.log(`${nome}, ${idade}, ${email}`)
+
+idade = 30
+console.log(idade)
+
+numero1 = 10
+numero2 = 5
+console.log(numero1 + numero2)
+
+var string = 'abc'
+console.log(string)
+
+var boolean = true
+console.log(boolean)
+
+var n1 = 10
+var n2 = 3
+console.log(n1 * n2)
+
+var nulo = null
+console.log(nulo)
