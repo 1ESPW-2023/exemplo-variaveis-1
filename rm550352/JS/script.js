@@ -1,8 +1,8 @@
-const h1Element = document.getElementById("meu-titulo")
+// const h1Element = document.getElementById("meu-titulo")
 
-h1Element.addEventListener("click",function () {
-    alert("Baianinho das casas bainha é una farsita!!!!")
-})
+// h1Element.addEventListener("click",function () {
+//     alert("Baianinho das casas bainha é una farsita!!!!")
+// })
 
 // var frutas = ["maçã", "banana", "laranja", "melancia"]
 
@@ -49,9 +49,16 @@ h1Element.addEventListener("click",function () {
     // })
      
 
-var nome = "Matheus"
-var idade = 18
-var email = "rm550352@fiap.com.br"
+ // var nome = "Matheus"
+ // var idade = 18
+ // var email = "rm550352@fiap.com.br"
 
-console.log(nome, idade, email)
+ // console.log(nome, idade, email)
+
+const el = [...document.getElementsByTagName("li")]
+
+//Utilização do MAP
+el.map((e, i)=>{
+    e.innerText = "NOVO ITEM"
+})
 
