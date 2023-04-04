@@ -57,13 +57,54 @@
     //     console.log(elementoLi.textContent)
     // })
 
-const el = [...document.getElementsByTagName("li")]
+// const el = [...document.getElementsByTagName("li")]
 
-//Utilização do MAP
-el.map((e,i)=>{
-    e.innerText = "NOVO ITEM"
-})
+// //Utilização do MAP
+// el.map((e,i)=>{
+//     e.innerText = "NOVO ITEM"
+// })
 
+// const el = [...document.getElementsByTagName("li")]
 
+//Loop While
 
+// let key = true
+// let indice = 0
+
+// console.log(el.length)
+
+// while (key) {
+//     console.log(`Valor do elemento li ${el[indice].innerText}`);
+//     key = (indice == el.length) ? false : true;
+//     indice++;
+// }
+
+let diaSemana = "DOM";
+
+switch (diaSemana) {
+    case "SEG": 
+        console.log("Hoje é segunda-feira!")
+        break;
+    case "TER": 
+        console.log("Hoje é terça-feira!")
+        break;
+    case "QUA": 
+        console.log("Hoje é terça-feira!")
+        break;
+    case "QUI": 
+        console.log("Hoje é quinta-feira!")
+        break;
+    case "SEX": 
+        console.log("Hoje é sexta-feira!")
+        break;
+    case "SAB": 
+        console.log("Hoje é sábado!")
+        break;
+    case "DOM": 
+        console.log("Hoje é domingo!")
+        break;
+    default:
+        console.log("Hoje é ...")
+        break;
+}
 
