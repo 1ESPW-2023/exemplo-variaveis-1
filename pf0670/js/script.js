@@ -59,4 +59,3 @@
 
 
 
-const el = document.getElementsByTagName("li")
