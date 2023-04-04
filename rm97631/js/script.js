@@ -59,26 +59,13 @@
 //     console.log(elementoLi.textContent)
 // })
 
-let nome = 'Fabrício'
-let idade = 19
-let email = 'rm97631@fiap.com.br'
 
-console.log(nome,',',idade,',',email)
-idade = 30
-console.log(idade)
+const el = [...document.getElementsByTagName("li")]
 
-let num1 = 1
-let num2 = 2
-console.log(num1+num2)
+// Utilizzação do MAP
 
-let string = 'palavra'
-console.log(string)
+el.map((e, i)=>{
 
-let booleano = true
-console.log(booleano)
+    e.innerText = "Novo item"
 
-console.log(num1*num2)
-
-let nulo = null
-console.log(nulo)
-
+})
