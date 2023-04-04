@@ -59,20 +59,72 @@
     //     console.log(elementoLi.textContent)
     // })
     
-    var nome = "luan"
-    var idade = 18
-    var email = "luanmacea@gmail.com"
+    // let nome = "luan"
+    // let idade = 18
+    // let email = "luanmacea@gmail.com"
 
-    console.log(nome + ", " + idade + ", " + email)
-    idade = 30
-    console.log(idade)
-    var num1= 25
-    var num2 = 13
-    console.log(num1+num2)
-    var str= "isso e uma string"
-    console.log(str)
-    var sim = true
-    console.log(sim)
-    console.log(num1*num2)
-    var nada = null
-    console.log(nada)
+    // console.log(nome + ", " + idade + ", " + email)
+    // idade = 30
+    // console.log(idade)
+    // let num1= 25
+    // let num2 = 13
+    // console.log(num1+num2)
+    // let str= "isso e uma string"
+    // console.log(str)
+    // let sim = true
+    // console.log(sim)
+    // console.log(num1*num2)
+    // let nada = null
+    // console.log(nada)
+
+    
+    //el[0].innerHTML="Item alterado"
+    
+    // el.map((e,i)=>{
+        //     e.innerText = "novo item"
+        // })
+        
+
+ const el = [...document.getElementsByTagName("li")]
+
+//Loop While
+
+// let key = true
+// let indice = 0
+
+// while (key) {
+//     let key=false
+//     console.log(`Valor do elemento li ${el[indice].innerText}`);
+//     key = (indice == el.length) ? true : false;
+//     indice++;
+// }
+
+//console.log(el)
+
+let diaSemana = "DOM"
+
+switch (diaSemana) {
+    case "SEG":
+        console.log("Hoje e segunda feira")
+        break;
+    case "TER":
+        console.log("Hoje e terca feira")
+        break;
+    case "QUA":
+        console.log("Hoje e quarta feira")
+        break;
+    case "QUI":
+        console.log("Hoje e quinta feira")
+        break;
+    case "SEX":
+        console.log("Hoje e sexta feira")
+        break;
+    case "SAB":
+        console.log("Hoje e sabado feira")
+        break;
+    case "DOM":
+        console.log("Hoje e domingo feira")
+        break;
+    default:
+        break;
+}
