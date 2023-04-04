@@ -54,3 +54,14 @@ h1Element.addEventListener("click" , function () {
     //     elementoLi.style.backgroundColor = "#f000f0";
     //     console.log(elementoLi.textContent)
     // })
+
+// const el = [...document.getElementsByTagName("li")]
+
+// //Utilização do MAP
+// el.map((e,i)=>{
+//     e.innerText = "NOVO ITEM"
+// })
+
+const el = [...document.getElementsByTagName("li")]
+
+//Loop While
