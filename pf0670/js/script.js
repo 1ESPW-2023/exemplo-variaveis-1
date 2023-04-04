@@ -57,5 +57,13 @@
     //     console.log(elementoLi.textContent)
     // })
 
+const el = [...document.getElementsByTagName("li")]
+
+//Utilização do MAP
+el.map((e,i)=>{
+    e.innerText = "NOVO ITEM"
+})
+
+
 
 
