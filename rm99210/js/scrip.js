@@ -24,18 +24,33 @@
 //     console.log("FRUTA SELECIONADA " + element)
 // }
 
-const listaDeElementosHtml = document.getElementsByTagName("li")
-const listaDeElementosHtmlArray = [...listaDeElementosHtml]
-let indice = 0
+// const listaDeElementosHtml = document.getElementsByTagName("li")
+// const listaDeElementosHtmlArray = [...listaDeElementosHtml]
+// let indice = 0
 
-listaDeElementosHtmlArray.forEach(elementoLi =>{
+// listaDeElementosHtmlArray.forEach(elementoLi =>{
 
-elementoLi.style.backgroundColor = "red"
+// elementoLi.style.backgroundColor = "#f000f0"
 
-   ++indice
-  elementoLi.innerHTML = (`Novo item - ${indice}`)
-  console.log(elementoLi.textContent)
-}) 
+//    ++indice
+//   elementoLi.innerHTML = (`Novo item - ${indice}`)
+//   console.log(elementoLi.textContent)
+// }) 
+
+const el = [...document.getElementsByTagName("li")]
+
+el.map((e,i)=>{
+
+  e.innerText = "Novo item"
+
+})
+
+
+
+console.table(el)
+
+
+
 
 
 
