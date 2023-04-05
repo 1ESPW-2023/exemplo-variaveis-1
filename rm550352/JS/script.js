@@ -55,10 +55,52 @@
 
  // console.log(nome, idade, email)
 
+// const el = [...document.getElementsByTagName("li")]
+
+// //Utilização do MAP
+// el.map((e, i)=>{
+//     e.innerText = "NOVO ITEM"
+// })
+
 const el = [...document.getElementsByTagName("li")]
 
-//Utilização do MAP
-el.map((e, i)=>{
-    e.innerText = "NOVO ITEM"
-})
+//Loop While
 
+// let key = false
+// let indice = 0
+
+// console.log(el.length)
+
+// while (key) {
+//     console.log(`Valor do elemento li ${el[indice].innerText}`);
+//     key = (indice == el.length) ? false : true;
+//     indice++;
+// }
+
+let diaSemana = "SABADO";
+
+switch (diaSemana) {
+    case "SEGUNDA":
+        console.log("Hoje é segunda-feira!")
+        break;
+    case "TERÇA":
+        console.log("Hoje é terça-feira!")
+        break;
+    case "QUARTA":
+        console.log("Hoje é quarta-feira!")
+        break;
+    case "QUINTA":
+        console.log("Hoje é quinta-feira!")
+        break;
+    case "SEXTA":
+        console.log("Hoje é sexta-feira!")
+        break;
+    case "SABADO":
+        console.log("Hoje é sabado!")
+        break;
+    case "DOMINGO":
+        console.log("Hoje é domingo!")
+        break;
+    default:
+        break;
+}
