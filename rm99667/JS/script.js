@@ -36,8 +36,35 @@
 
 // })
 
+// const el = [...document.getElementsByTagName("li")]
+
+// el.map((e,i)=>{
+//     e.innerText = "tomara que deu"
+// })
+
 const el = [...document.getElementsByTagName("li")]
 
-el.map((e,i)=>{
-    e.innerText = "tomara que deu"
-})
+
+
+
+var key = true
+var indice = 0
+
+while (key) {
+    console.log((el[indice].innerText))
+    indice = indice + 1     
+    if(indice > (el.length) - 1) {
+        key = false
+    }
+
+}
+
+
+
+// while (key) {
+//     console.log(el[indice].innerText)
+//     indice = indice + 1
+//     if (el.length = indice - 1) {
+//         key = false
+//     }
+// }
